@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+    font-family: 'Oswald', sans-serif;
+    color: #2e1d39;
+}
+
+span {
+   color: red;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 16px;
+    box-shadow: 0 3px 7px #2e1d39;
+    border-radius: 7px;
+}
+
+input {
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px #2e1d39ad;
+}
+
+button {
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    border-radius: 3.5px;
+    border: 1px rgb(52, 68, 60) solid;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    background: transparent;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.204);
+    box-shadow: 0 1px 1px 1px;
+    transition: all 0.25s ease-in-out;
+}
